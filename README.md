@@ -1,3 +1,25 @@
+// Layout of Contract:
+// version
+// imports
+// interfaces, libraries, contracts
+// errors
+// Type declarations
+// State variables
+// Events
+// Modifiers
+// Functions
+
+// Layout of Functions:
+// constructor
+// receive function (if exists)
+// fallback function (if exists)
+// external
+// public
+// internal
+// private
+// view & pure functions
+
+
 1. Relative stability: anchored or pegged -> 1.00$
     1. Chainlink price feed;
     2. Set a fucntion to exchange  ETH & BTC -> $$$
