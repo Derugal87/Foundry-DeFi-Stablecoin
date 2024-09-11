@@ -29,6 +29,24 @@
     1. wETH
     2. wBTC
 
+- calculate health factor function
+- set health factor if debt is 0
+- added a bunch of view functions
+
+1. What are our invariants/properties?
+Understand the invariant and launch fuzz test on it
+2. Write the functions that can execute them
+
+
+Stateless fuzzing: Where the state of the previous run is discarded for every new run
+Stateful fuzzing: Fuzzing where the final state of your previous run is the starting state of your next run
+
+Fuzz tests = Random Data to one function
+Invariant tests = Random Data & Random Function Calls to many functions
+
+Examples:
+Invariants - new tokens minted < inflations rate; or Only possible to have 1 winner in a lottery; or Only withdraw what they deposit
+
 
 
 ## Foundry
